@@ -3,8 +3,10 @@ class VisitorsController < ApplicationController
     Rails.logger.debug 'Enter VisitorsController new method'
     @owner = Owner.new
     render 'visitors/new'
+
+
     Rails.logger.debug 'Exit VisitorsController new method'
-    
+
   end
 
 end
